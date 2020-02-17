@@ -23,8 +23,20 @@ namespace WindowsFormsApp1
                 buttons[i].Text = (i+1).ToString();
                 buttons[i].Size = new Size(50, 50);
                 buttons[i].Location = new Point((i - (i/4)*4)*(buttons[i].Size.Width) + 5,(i/4)*buttons[i].Size.Height+5);
+
+                //버튼이벤트 추가
+                buttons[i].Tag = i+1;
+                buttons[i].Click += new EventHandler(buttons_Click);
                 this.Controls.Add(buttons[i]);
             }
+        }
+
+        //버튼이벤트 함수추가
+        void buttons_Click(object sender, EventArgs e)
+        {
+            Button button = sender as Button;
+            int index = (int)button.Tag;
+            label1.Text = index.ToString() + "번이 눌림";
         }
     }
 }
