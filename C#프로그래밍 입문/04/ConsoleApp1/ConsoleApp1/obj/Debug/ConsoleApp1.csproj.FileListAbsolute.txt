@@ -1,0 +1,6 @@
+D:\OneDrive - 한국폴리텍대학\C#\04\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+D:\OneDrive - 한국폴리텍대학\C#\04\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\OneDrive - 한국폴리텍대학\C#\04\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\OneDrive - 한국폴리텍대학\C#\04\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\OneDrive - 한국폴리텍대학\C#\04\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\OneDrive - 한국폴리텍대학\C#\04\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

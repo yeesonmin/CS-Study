@@ -1,0 +1,9 @@
+D:\C#\07_From\07_From\bin\Debug\07_From.exe.config
+D:\C#\07_From\07_From\bin\Debug\07_From.exe
+D:\C#\07_From\07_From\bin\Debug\07_From.pdb
+D:\C#\07_From\07_From\obj\Debug\07_From.csprojResolveAssemblyReference.cache
+D:\C#\07_From\07_From\obj\Debug\_07_From.Form1.resources
+D:\C#\07_From\07_From\obj\Debug\_07_From.Properties.Resources.resources
+D:\C#\07_From\07_From\obj\Debug\07_From.csproj.GenerateResource.Cache
+D:\C#\07_From\07_From\obj\Debug\07_From.exe
+D:\C#\07_From\07_From\obj\Debug\07_From.pdb

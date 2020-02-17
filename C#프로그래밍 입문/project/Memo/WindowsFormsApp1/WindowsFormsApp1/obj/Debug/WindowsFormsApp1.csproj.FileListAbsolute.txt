@@ -1,0 +1,22 @@
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TextForm.resources
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\OneDrive - 한국폴리텍대학\C#\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MemoInfo.resources
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MemoInfo.resources
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TextForm.resources
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\OneDrive - 한국폴리텍대학\C#\C#프로그래밍 입문\project\Memo\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

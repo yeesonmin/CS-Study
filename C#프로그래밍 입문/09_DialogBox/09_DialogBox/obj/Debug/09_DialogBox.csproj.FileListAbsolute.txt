@@ -1,0 +1,15 @@
+D:\C#\09_DialogBox\09_DialogBox\bin\Debug\09_DialogBox.exe.config
+D:\C#\09_DialogBox\09_DialogBox\bin\Debug\09_DialogBox.exe
+D:\C#\09_DialogBox\09_DialogBox\bin\Debug\09_DialogBox.pdb
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\09_DialogBox.csprojResolveAssemblyReference.cache
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.ModalAPp.resources
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.Modar.resources
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.Properties.Resources.resources
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\09_DialogBox.csproj.GenerateResource.Cache
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\09_DialogBox.exe
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\09_DialogBox.pdb
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.OpenFileDialogApp.resources
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.MultiSelectOpenFile.resources
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.FontDialog.resources
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.ColorDialog.resources
+D:\C#\09_DialogBox\09_DialogBox\obj\Debug\_09_DialogBox.PrintDialogApp.resources

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C964802-5F61-493F-B5A8-4A3E5D628613}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_10_Form</RootNamespace>
+    <AssemblyName>10_Form</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FocusApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FocusApp.Designer.cs">
+      <DependentUpon>FocusApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FocusEventApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FocusEventApp.Designer.cs">
+      <DependentUpon>FocusEventApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HitTestingApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HitTestingApp.Designer.cs">
+      <DependentUpon>HitTestingApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyEventAPp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyEventAPp.Designer.cs">
+      <DependentUpon>KeyEventAPp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainmenuApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainmenuApp.Designer.cs">
+      <DependentUpon>MainmenuApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MouseEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MouseEvent.Designer.cs">
+      <DependentUpon>MouseEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MousePositionApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MousePositionApp.Designer.cs">
+      <DependentUpon>MousePositionApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MouseWheelApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MouseWheelApp.Designer.cs">
+      <DependentUpon>MouseWheelApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FocusApp.resx">
+      <DependentUpon>FocusApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FocusEventApp.resx">
+      <DependentUpon>FocusEventApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HitTestingApp.resx">
+      <DependentUpon>HitTestingApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyEventAPp.resx">
+      <DependentUpon>KeyEventAPp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainmenuApp.resx">
+      <DependentUpon>MainmenuApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouseEvent.resx">
+      <DependentUpon>MouseEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MousePositionApp.resx">
+      <DependentUpon>MousePositionApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouseWheelApp.resx">
+      <DependentUpon>MouseWheelApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,16 @@
+D:\C#\08_Control\08_Control\bin\Debug\08_Control.exe.config
+D:\C#\08_Control\08_Control\bin\Debug\08_Control.exe
+D:\C#\08_Control\08_Control\bin\Debug\08_Control.pdb
+D:\C#\08_Control\08_Control\obj\Debug\08_Control.csprojResolveAssemblyReference.cache
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.ButtonApp.resources
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.Properties.Resources.resources
+D:\C#\08_Control\08_Control\obj\Debug\08_Control.csproj.GenerateResource.Cache
+D:\C#\08_Control\08_Control\obj\Debug\08_Control.exe
+D:\C#\08_Control\08_Control\obj\Debug\08_Control.pdb
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.CheckBoxApp.resources
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.RadioButtonApp.resources
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.LabelSample.resources
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.LinkLable.resources
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.ListBoxApp.resources
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.ComboBoxApp.resources
+D:\C#\08_Control\08_Control\obj\Debug\_08_Control.CheckListboxApp.resources

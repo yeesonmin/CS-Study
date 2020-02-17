@@ -1,0 +1,16 @@
+D:\C#\10_Form\10_Form\bin\Debug\10_Form.exe.config
+D:\C#\10_Form\10_Form\bin\Debug\10_Form.exe
+D:\C#\10_Form\10_Form\bin\Debug\10_Form.pdb
+D:\C#\10_Form\10_Form\obj\Debug\10_Form.csprojResolveAssemblyReference.cache
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.MainmenuApp.resources
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.Properties.Resources.resources
+D:\C#\10_Form\10_Form\obj\Debug\10_Form.csproj.GenerateResource.Cache
+D:\C#\10_Form\10_Form\obj\Debug\10_Form.exe
+D:\C#\10_Form\10_Form\obj\Debug\10_Form.pdb
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.MouseWheelApp.resources
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.MousePositionApp.resources
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.MouseEvent.resources
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.HitTestingApp.resources
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.FocusApp.resources
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.FocusEventApp.resources
+D:\C#\10_Form\10_Form\obj\Debug\_10_Form.KeyEventAPp.resources
