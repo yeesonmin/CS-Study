@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlArray.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,9 @@
     <Compile Include="Timer.Designer.cs">
       <DependentUpon>Timer.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlArray.resx">
       <DependentUpon>ControlArray.cs</DependentUpon>
     </EmbeddedResource>

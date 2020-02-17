@@ -35,8 +35,8 @@ namespace WindowsFormsApp1
         void buttons_Click(object sender, EventArgs e)
         {
             Button button = sender as Button;
-            int index = (int)button.Tag;
-            label1.Text = index.ToString() + "번이 눌림";
+          
+            label1.Text = button.ToString();
         }
     }
 }

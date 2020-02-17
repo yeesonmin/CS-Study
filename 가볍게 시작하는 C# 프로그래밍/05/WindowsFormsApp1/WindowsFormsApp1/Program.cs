@@ -18,7 +18,8 @@ namespace WindowsFormsApp1
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
             //Application.Run(new Timer());
-            Application.Run(new ControlArray());
+            //Application.Run(new ControlArray());
+            Application.Run(new Calculator());
         }
     }
 }
