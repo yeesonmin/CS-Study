@@ -20,7 +20,9 @@ namespace WindowsFormsApp1
             //Application.Run(new Form2());
             // Application.Run(new Form3());
             //Application.Run(new Form4());
-            Application.Run(new Space());
+            //Application.Run(new Space());
+            //Application.Run(new Hello());
+            Application.Run(new Clock());
         }
     }
 }
