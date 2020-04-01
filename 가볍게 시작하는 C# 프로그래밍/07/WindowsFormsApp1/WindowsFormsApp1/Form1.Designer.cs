@@ -28,23 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.userControl11 = new WindowsFormsApp1.Control.UserControl1();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.example11 = new WindowsFormsApp1.Control.Example1();
             this.SuspendLayout();
             // 
-            // userControl11
+            // example11
             // 
-            this.userControl11.BackColor = System.Drawing.SystemColors.WindowText;
-            this.userControl11.Location = new System.Drawing.Point(12, 12);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(300, 100);
-            this.userControl11.TabIndex = 0;
+            this.example11.BackColor = System.Drawing.SystemColors.WindowText;
+            this.example11.Location = new System.Drawing.Point(-2, 0);
+            this.example11.Name = "example11";
+            this.example11.Size = new System.Drawing.Size(416, 227);
+            this.example11.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(469, 298);
-            this.Controls.Add(this.userControl11);
+            this.Controls.Add(this.example11);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -53,7 +54,9 @@
 
         #endregion
 
-        private Control.UserControl1 userControl11;
+        private Control.Example1 userControl11;
+        private System.Windows.Forms.ColorDialog colorDialog1;
+        private Control.Example1 example11;
     }
 }
 

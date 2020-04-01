@@ -15,9 +15,9 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            userControl11.setButtonsText(0, "1빠");
-            userControl11.setButtonsText(1, "2빠");
-            userControl11.setButtonsText(2, "3빠");
+            example11.setButtonsText(0, "1 빠");
+            example11.setButtonsText(1, "2 빠");
+            example11.setButtonsText(2, "3 빠");
 
         }
     }

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1.Control
 {
-    public partial class UserControl1 : UserControl
+    public partial class Example1 : UserControl
     {
         Button[] buttons = new Button[3];
-        public UserControl1()
+        public Example1()
         {
             InitializeComponent();
 
@@ -26,11 +26,17 @@ namespace WindowsFormsApp1.Control
                     (((this.Width - (buttons[i].Width * buttons.Length)) / 4) * (i + 1)) + (buttons[i].Width) * i,
                     (this.Height - (label1.Height + label1.Location.Y)) / 2);
                 buttons[i].BackColor = Color.White;
-                
+
+                buttons[i].Click += new EventHandler(Example1_Click);
                 this.Controls.Add(buttons[i]);
             }
         }
 
+        void Example1_Click(object sender, EventArgs e)
+        {
+            Button button = sender as Button;
+            label1.Text = button.Text + "눌림.";
+        }
         public bool setButtonsText(int index, string text)
         {
             buttons[index].Text = text;
