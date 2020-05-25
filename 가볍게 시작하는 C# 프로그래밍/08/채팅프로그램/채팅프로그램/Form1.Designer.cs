@@ -167,6 +167,7 @@
             this.txt_View.Name = "txt_View";
             this.txt_View.Size = new System.Drawing.Size(398, 384);
             this.txt_View.TabIndex = 4;
+            this.txt_View.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_View_KeyDown);
             // 
             // txt_send
             // 
@@ -175,6 +176,7 @@
             this.txt_send.Name = "txt_send";
             this.txt_send.Size = new System.Drawing.Size(315, 55);
             this.txt_send.TabIndex = 5;
+            this.txt_send.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_send_KeyDown);
             // 
             // btn_Send
             // 
@@ -184,6 +186,7 @@
             this.btn_Send.TabIndex = 6;
             this.btn_Send.Text = "보내기";
             this.btn_Send.UseVisualStyleBackColor = true;
+            this.btn_Send.Click += new System.EventHandler(this.btn_Send_Click);
             // 
             // Form1
             // 
