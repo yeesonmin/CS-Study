@@ -30,26 +30,27 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button_Search = new System.Windows.Forms.Button();
+            this.button_Card = new System.Windows.Forms.Button();
+            this.textBox_VRMClientPhone = new System.Windows.Forms.TextBox();
+            this.textBox_VRMClientNum = new System.Windows.Forms.TextBox();
+            this.textBox_VRMClientCode = new System.Windows.Forms.TextBox();
+            this.textBox_VRMClientName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.dataGridView_Client = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox_ClientJob = new System.Windows.Forms.TextBox();
+            this.textBox_ClientName = new System.Windows.Forms.TextBox();
+            this.textBox_ClientAddress = new System.Windows.Forms.TextBox();
+            this.textBox_ClientPost = new System.Windows.Forms.TextBox();
+            this.textBox_ClientPhone = new System.Windows.Forms.TextBox();
+            this.textBox_ClientNum = new System.Windows.Forms.TextBox();
+            this.textBox_ClientPeopleNum = new System.Windows.Forms.TextBox();
+            this.textBox_ClientCode = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -59,33 +60,36 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker_Return = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker_Rent = new System.Windows.Forms.DateTimePicker();
+            this.button_Save = new System.Windows.Forms.Button();
+            this.button_RollBack = new System.Windows.Forms.Button();
+            this.button_Insert = new System.Windows.Forms.Button();
+            this.textBox_VideoName = new System.Windows.Forms.TextBox();
+            this.textBox_Arrears = new System.Windows.Forms.TextBox();
+            this.textBox_RentRate = new System.Windows.Forms.TextBox();
+            this.textBox_VideoCode = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.textBox_Count = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox_SumRent = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox_SumReturn = new System.Windows.Forms.TextBox();
+            this.button_Return = new System.Windows.Forms.Button();
+            this.dataGridView_Rent = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Client)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Rent)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -100,12 +104,12 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.button2);
-            this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.textBox4);
-            this.tabPage1.Controls.Add(this.textBox3);
-            this.tabPage1.Controls.Add(this.textBox2);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.button_Search);
+            this.tabPage1.Controls.Add(this.button_Card);
+            this.tabPage1.Controls.Add(this.textBox_VRMClientPhone);
+            this.tabPage1.Controls.Add(this.textBox_VRMClientNum);
+            this.tabPage1.Controls.Add(this.textBox_VRMClientCode);
+            this.tabPage1.Controls.Add(this.textBox_VRMClientName);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
@@ -118,51 +122,52 @@
             this.tabPage1.Text = "고객 입력";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // button_Search
             // 
-            this.button2.Location = new System.Drawing.Point(135, 150);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 26);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "찾기";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_Search.Location = new System.Drawing.Point(135, 150);
+            this.button_Search.Name = "button_Search";
+            this.button_Search.Size = new System.Drawing.Size(101, 26);
+            this.button_Search.TabIndex = 2;
+            this.button_Search.Text = "찾기";
+            this.button_Search.UseVisualStyleBackColor = true;
+            this.button_Search.Click += new System.EventHandler(this.button_Search_Click);
             // 
-            // button1
+            // button_Card
             // 
-            this.button1.Location = new System.Drawing.Point(16, 150);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 26);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "카드 읽기";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_Card.Location = new System.Drawing.Point(16, 150);
+            this.button_Card.Name = "button_Card";
+            this.button_Card.Size = new System.Drawing.Size(101, 26);
+            this.button_Card.TabIndex = 2;
+            this.button_Card.Text = "카드 읽기";
+            this.button_Card.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // textBox_VRMClientPhone
             // 
-            this.textBox4.Location = new System.Drawing.Point(82, 110);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(154, 21);
-            this.textBox4.TabIndex = 1;
+            this.textBox_VRMClientPhone.Location = new System.Drawing.Point(82, 110);
+            this.textBox_VRMClientPhone.Name = "textBox_VRMClientPhone";
+            this.textBox_VRMClientPhone.Size = new System.Drawing.Size(154, 21);
+            this.textBox_VRMClientPhone.TabIndex = 3;
             // 
-            // textBox3
+            // textBox_VRMClientNum
             // 
-            this.textBox3.Location = new System.Drawing.Point(82, 77);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(154, 21);
-            this.textBox3.TabIndex = 1;
+            this.textBox_VRMClientNum.Location = new System.Drawing.Point(82, 77);
+            this.textBox_VRMClientNum.Name = "textBox_VRMClientNum";
+            this.textBox_VRMClientNum.Size = new System.Drawing.Size(154, 21);
+            this.textBox_VRMClientNum.TabIndex = 2;
             // 
-            // textBox2
+            // textBox_VRMClientCode
             // 
-            this.textBox2.Location = new System.Drawing.Point(82, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(154, 21);
-            this.textBox2.TabIndex = 1;
+            this.textBox_VRMClientCode.Location = new System.Drawing.Point(82, 44);
+            this.textBox_VRMClientCode.Name = "textBox_VRMClientCode";
+            this.textBox_VRMClientCode.Size = new System.Drawing.Size(154, 21);
+            this.textBox_VRMClientCode.TabIndex = 1;
             // 
-            // textBox1
+            // textBox_VRMClientName
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 11);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(154, 21);
-            this.textBox1.TabIndex = 1;
+            this.textBox_VRMClientName.Location = new System.Drawing.Point(82, 11);
+            this.textBox_VRMClientName.Name = "textBox_VRMClientName";
+            this.textBox_VRMClientName.Size = new System.Drawing.Size(154, 21);
+            this.textBox_VRMClientName.TabIndex = 0;
             // 
             // label4
             // 
@@ -202,6 +207,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.dataGridView_Client);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -210,16 +216,27 @@
             this.tabPage2.Text = "고객 선택";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // dataGridView_Client
+            // 
+            this.dataGridView_Client.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Client.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView_Client.Name = "dataGridView_Client";
+            this.dataGridView_Client.ReadOnly = true;
+            this.dataGridView_Client.RowTemplate.Height = 23;
+            this.dataGridView_Client.Size = new System.Drawing.Size(253, 195);
+            this.dataGridView_Client.TabIndex = 8;
+            this.dataGridView_Client.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Client_CellClick);
+            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox11);
-            this.groupBox1.Controls.Add(this.textBox10);
-            this.groupBox1.Controls.Add(this.textBox12);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox_ClientJob);
+            this.groupBox1.Controls.Add(this.textBox_ClientName);
+            this.groupBox1.Controls.Add(this.textBox_ClientAddress);
+            this.groupBox1.Controls.Add(this.textBox_ClientPost);
+            this.groupBox1.Controls.Add(this.textBox_ClientPhone);
+            this.groupBox1.Controls.Add(this.textBox_ClientNum);
+            this.groupBox1.Controls.Add(this.textBox_ClientPeopleNum);
+            this.groupBox1.Controls.Add(this.textBox_ClientCode);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label12);
@@ -235,61 +252,69 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "고객 정보";
             // 
-            // textBox11
+            // textBox_ClientJob
             // 
-            this.textBox11.Location = new System.Drawing.Point(325, 53);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(154, 21);
-            this.textBox11.TabIndex = 3;
+            this.textBox_ClientJob.Location = new System.Drawing.Point(325, 53);
+            this.textBox_ClientJob.Name = "textBox_ClientJob";
+            this.textBox_ClientJob.ReadOnly = true;
+            this.textBox_ClientJob.Size = new System.Drawing.Size(154, 21);
+            this.textBox_ClientJob.TabIndex = 3;
             // 
-            // textBox10
+            // textBox_ClientName
             // 
-            this.textBox10.Location = new System.Drawing.Point(325, 20);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(154, 21);
-            this.textBox10.TabIndex = 3;
+            this.textBox_ClientName.Location = new System.Drawing.Point(325, 20);
+            this.textBox_ClientName.Name = "textBox_ClientName";
+            this.textBox_ClientName.ReadOnly = true;
+            this.textBox_ClientName.Size = new System.Drawing.Size(154, 21);
+            this.textBox_ClientName.TabIndex = 1;
             // 
-            // textBox12
+            // textBox_ClientAddress
             // 
-            this.textBox12.Location = new System.Drawing.Point(73, 160);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(406, 21);
-            this.textBox12.TabIndex = 3;
+            this.textBox_ClientAddress.Location = new System.Drawing.Point(73, 160);
+            this.textBox_ClientAddress.Name = "textBox_ClientAddress";
+            this.textBox_ClientAddress.ReadOnly = true;
+            this.textBox_ClientAddress.Size = new System.Drawing.Size(406, 21);
+            this.textBox_ClientAddress.TabIndex = 7;
             // 
-            // textBox8
+            // textBox_ClientPost
             // 
-            this.textBox8.Location = new System.Drawing.Point(73, 134);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(154, 21);
-            this.textBox8.TabIndex = 3;
+            this.textBox_ClientPost.Location = new System.Drawing.Point(73, 134);
+            this.textBox_ClientPost.Name = "textBox_ClientPost";
+            this.textBox_ClientPost.ReadOnly = true;
+            this.textBox_ClientPost.Size = new System.Drawing.Size(154, 21);
+            this.textBox_ClientPost.TabIndex = 6;
             // 
-            // textBox9
+            // textBox_ClientPhone
             // 
-            this.textBox9.Location = new System.Drawing.Point(325, 94);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(154, 21);
-            this.textBox9.TabIndex = 3;
+            this.textBox_ClientPhone.Location = new System.Drawing.Point(325, 94);
+            this.textBox_ClientPhone.Name = "textBox_ClientPhone";
+            this.textBox_ClientPhone.ReadOnly = true;
+            this.textBox_ClientPhone.Size = new System.Drawing.Size(154, 21);
+            this.textBox_ClientPhone.TabIndex = 5;
             // 
-            // textBox7
+            // textBox_ClientNum
             // 
-            this.textBox7.Location = new System.Drawing.Point(73, 91);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(154, 21);
-            this.textBox7.TabIndex = 3;
+            this.textBox_ClientNum.Location = new System.Drawing.Point(73, 91);
+            this.textBox_ClientNum.Name = "textBox_ClientNum";
+            this.textBox_ClientNum.ReadOnly = true;
+            this.textBox_ClientNum.Size = new System.Drawing.Size(154, 21);
+            this.textBox_ClientNum.TabIndex = 4;
             // 
-            // textBox6
+            // textBox_ClientPeopleNum
             // 
-            this.textBox6.Location = new System.Drawing.Point(73, 49);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(154, 21);
-            this.textBox6.TabIndex = 3;
+            this.textBox_ClientPeopleNum.Location = new System.Drawing.Point(73, 49);
+            this.textBox_ClientPeopleNum.Name = "textBox_ClientPeopleNum";
+            this.textBox_ClientPeopleNum.ReadOnly = true;
+            this.textBox_ClientPeopleNum.Size = new System.Drawing.Size(154, 21);
+            this.textBox_ClientPeopleNum.TabIndex = 2;
             // 
-            // textBox5
+            // textBox_ClientCode
             // 
-            this.textBox5.Location = new System.Drawing.Point(73, 20);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(154, 21);
-            this.textBox5.TabIndex = 3;
+            this.textBox_ClientCode.Location = new System.Drawing.Point(73, 20);
+            this.textBox_ClientCode.Name = "textBox_ClientCode";
+            this.textBox_ClientCode.ReadOnly = true;
+            this.textBox_ClientCode.Size = new System.Drawing.Size(154, 21);
+            this.textBox_ClientCode.TabIndex = 0;
             // 
             // label11
             // 
@@ -365,14 +390,15 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dateTimePicker2);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.button4);
-            this.groupBox2.Controls.Add(this.textBox14);
-            this.groupBox2.Controls.Add(this.textBox13);
-            this.groupBox2.Controls.Add(this.textBox19);
-            this.groupBox2.Controls.Add(this.textBox20);
+            this.groupBox2.Controls.Add(this.dateTimePicker_Return);
+            this.groupBox2.Controls.Add(this.dateTimePicker_Rent);
+            this.groupBox2.Controls.Add(this.button_Save);
+            this.groupBox2.Controls.Add(this.button_RollBack);
+            this.groupBox2.Controls.Add(this.button_Insert);
+            this.groupBox2.Controls.Add(this.textBox_VideoName);
+            this.groupBox2.Controls.Add(this.textBox_Arrears);
+            this.groupBox2.Controls.Add(this.textBox_RentRate);
+            this.groupBox2.Controls.Add(this.textBox_VideoCode);
             this.groupBox2.Controls.Add(this.label16);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.label13);
@@ -386,26 +412,86 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "대여 비디오 입력";
             // 
-            // textBox14
+            // dateTimePicker_Return
             // 
-            this.textBox14.Location = new System.Drawing.Point(287, 20);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(357, 21);
-            this.textBox14.TabIndex = 3;
+            this.dateTimePicker_Return.CustomFormat = "yyyy-mm-dd";
+            this.dateTimePicker_Return.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_Return.Location = new System.Drawing.Point(654, 57);
+            this.dateTimePicker_Return.Name = "dateTimePicker_Return";
+            this.dateTimePicker_Return.Size = new System.Drawing.Size(112, 21);
+            this.dateTimePicker_Return.TabIndex = 5;
             // 
-            // textBox19
+            // dateTimePicker_Rent
             // 
-            this.textBox19.Location = new System.Drawing.Point(89, 57);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(106, 21);
-            this.textBox19.TabIndex = 3;
+            this.dateTimePicker_Rent.CustomFormat = "yyyy-mm-dd";
+            this.dateTimePicker_Rent.Enabled = false;
+            this.dateTimePicker_Rent.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_Rent.Location = new System.Drawing.Point(453, 57);
+            this.dateTimePicker_Rent.Name = "dateTimePicker_Rent";
+            this.dateTimePicker_Rent.Size = new System.Drawing.Size(112, 21);
+            this.dateTimePicker_Rent.TabIndex = 4;
             // 
-            // textBox20
+            // button_Save
             // 
-            this.textBox20.Location = new System.Drawing.Point(89, 20);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(106, 21);
-            this.textBox20.TabIndex = 3;
+            this.button_Save.Location = new System.Drawing.Point(641, 17);
+            this.button_Save.Name = "button_Save";
+            this.button_Save.Size = new System.Drawing.Size(57, 26);
+            this.button_Save.TabIndex = 3;
+            this.button_Save.Text = "저장";
+            this.button_Save.UseVisualStyleBackColor = true;
+            this.button_Save.Click += new System.EventHandler(this.button_Save_Click);
+            // 
+            // button_RollBack
+            // 
+            this.button_RollBack.Location = new System.Drawing.Point(708, 17);
+            this.button_RollBack.Name = "button_RollBack";
+            this.button_RollBack.Size = new System.Drawing.Size(57, 26);
+            this.button_RollBack.TabIndex = 3;
+            this.button_RollBack.Text = "취소";
+            this.button_RollBack.UseVisualStyleBackColor = true;
+            this.button_RollBack.Click += new System.EventHandler(this.button_RollBack_Click);
+            // 
+            // button_Insert
+            // 
+            this.button_Insert.Location = new System.Drawing.Point(574, 17);
+            this.button_Insert.Name = "button_Insert";
+            this.button_Insert.Size = new System.Drawing.Size(57, 26);
+            this.button_Insert.TabIndex = 3;
+            this.button_Insert.Text = "등록";
+            this.button_Insert.UseVisualStyleBackColor = true;
+            this.button_Insert.Click += new System.EventHandler(this.button_Insert_Click);
+            // 
+            // textBox_VideoName
+            // 
+            this.textBox_VideoName.Location = new System.Drawing.Point(287, 20);
+            this.textBox_VideoName.Name = "textBox_VideoName";
+            this.textBox_VideoName.ReadOnly = true;
+            this.textBox_VideoName.Size = new System.Drawing.Size(278, 21);
+            this.textBox_VideoName.TabIndex = 1;
+            // 
+            // textBox_Arrears
+            // 
+            this.textBox_Arrears.Location = new System.Drawing.Point(259, 57);
+            this.textBox_Arrears.Name = "textBox_Arrears";
+            this.textBox_Arrears.ReadOnly = true;
+            this.textBox_Arrears.Size = new System.Drawing.Size(106, 21);
+            this.textBox_Arrears.TabIndex = 3;
+            // 
+            // textBox_RentRate
+            // 
+            this.textBox_RentRate.Location = new System.Drawing.Point(89, 57);
+            this.textBox_RentRate.Name = "textBox_RentRate";
+            this.textBox_RentRate.ReadOnly = true;
+            this.textBox_RentRate.Size = new System.Drawing.Size(106, 21);
+            this.textBox_RentRate.TabIndex = 2;
+            // 
+            // textBox_VideoCode
+            // 
+            this.textBox_VideoCode.Location = new System.Drawing.Point(89, 20);
+            this.textBox_VideoCode.Name = "textBox_VideoCode";
+            this.textBox_VideoCode.Size = new System.Drawing.Size(106, 21);
+            this.textBox_VideoCode.TabIndex = 0;
+            this.textBox_VideoCode.TextChanged += new System.EventHandler(this.textBox_VideoCode_TextChanged);
             // 
             // label16
             // 
@@ -461,56 +547,14 @@
             this.label20.TabIndex = 2;
             this.label20.Text = "비디오 코드 :";
             // 
-            // button3
+            // textBox_Count
             // 
-            this.button3.Location = new System.Drawing.Point(709, 17);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(57, 26);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "저장";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(650, 17);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(57, 26);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "등록";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(259, 57);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(106, 21);
-            this.textBox13.TabIndex = 3;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CustomFormat = "yyyy-mm-dd";
-            this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Location = new System.Drawing.Point(453, 57);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(112, 21);
-            this.dateTimePicker1.TabIndex = 4;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.CustomFormat = "yyyy-mm-dd";
-            this.dateTimePicker2.Enabled = false;
-            this.dateTimePicker2.Location = new System.Drawing.Point(654, 57);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(112, 21);
-            this.dateTimePicker2.TabIndex = 4;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Font = new System.Drawing.Font("굴림", 12F);
-            this.textBox15.Location = new System.Drawing.Point(127, 345);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(106, 26);
-            this.textBox15.TabIndex = 6;
+            this.textBox_Count.Font = new System.Drawing.Font("굴림", 12F);
+            this.textBox_Count.Location = new System.Drawing.Point(127, 345);
+            this.textBox_Count.Name = "textBox_Count";
+            this.textBox_Count.ReadOnly = true;
+            this.textBox_Count.Size = new System.Drawing.Size(106, 26);
+            this.textBox_Count.TabIndex = 0;
             // 
             // label17
             // 
@@ -532,13 +576,15 @@
             this.label18.TabIndex = 5;
             this.label18.Text = "총 대여료 :";
             // 
-            // textBox16
+            // textBox_SumRent
             // 
-            this.textBox16.Font = new System.Drawing.Font("굴림", 12F);
-            this.textBox16.Location = new System.Drawing.Point(332, 345);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(106, 26);
-            this.textBox16.TabIndex = 6;
+            this.textBox_SumRent.Font = new System.Drawing.Font("굴림", 12F);
+            this.textBox_SumRent.Location = new System.Drawing.Point(332, 345);
+            this.textBox_SumRent.Name = "textBox_SumRent";
+            this.textBox_SumRent.ReadOnly = true;
+            this.textBox_SumRent.Size = new System.Drawing.Size(106, 26);
+            this.textBox_SumRent.TabIndex = 1;
+            this.textBox_SumRent.Text = "0";
             // 
             // label21
             // 
@@ -550,42 +596,51 @@
             this.label21.TabIndex = 5;
             this.label21.Text = "총 연체료 :";
             // 
-            // textBox17
+            // textBox_SumReturn
             // 
-            this.textBox17.Font = new System.Drawing.Font("굴림", 12F);
-            this.textBox17.Location = new System.Drawing.Point(537, 345);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(106, 26);
-            this.textBox17.TabIndex = 6;
+            this.textBox_SumReturn.Font = new System.Drawing.Font("굴림", 12F);
+            this.textBox_SumReturn.Location = new System.Drawing.Point(537, 345);
+            this.textBox_SumReturn.Name = "textBox_SumReturn";
+            this.textBox_SumReturn.ReadOnly = true;
+            this.textBox_SumReturn.Size = new System.Drawing.Size(106, 26);
+            this.textBox_SumReturn.TabIndex = 2;
+            this.textBox_SumReturn.Text = "0";
             // 
-            // button5
+            // button_Return
             // 
-            this.button5.Location = new System.Drawing.Point(662, 345);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(116, 26);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "비디오 회수";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button_Return.Location = new System.Drawing.Point(662, 345);
+            this.button_Return.Name = "button_Return";
+            this.button_Return.Size = new System.Drawing.Size(116, 26);
+            this.button_Return.TabIndex = 5;
+            this.button_Return.Text = "비디오 반납";
+            this.button_Return.UseVisualStyleBackColor = true;
+            this.button_Return.Click += new System.EventHandler(this.button_Return_Click);
             // 
-            // dataGridView1
+            // dataGridView_Rent
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 377);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(776, 200);
-            this.dataGridView1.TabIndex = 7;
+            this.dataGridView_Rent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView_Rent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Rent.Location = new System.Drawing.Point(12, 377);
+            this.dataGridView_Rent.Name = "dataGridView_Rent";
+            this.dataGridView_Rent.ReadOnly = true;
+            this.dataGridView_Rent.RowTemplate.Height = 23;
+            this.dataGridView_Rent.Size = new System.Drawing.Size(776, 200);
+            this.dataGridView_Rent.TabIndex = 7;
+            this.dataGridView_Rent.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Rent_CellClick);
             // 
             // VRM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(800, 589);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
+            this.Controls.Add(this.dataGridView_Rent);
+            this.Controls.Add(this.button_Return);
+            this.Controls.Add(this.textBox_SumReturn);
+            this.Controls.Add(this.textBox_SumRent);
+            this.Controls.Add(this.textBox_Count);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -593,15 +648,19 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.tabControl1);
             this.Name = "VRM";
-            this.Text = "대여 관리";
+            this.Text = "대여/반납";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VRM_FormClosing);
+            this.Load += new System.EventHandler(this.VRM_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Client)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Rent)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -611,25 +670,14 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button_Search;
+        private System.Windows.Forms.Button button_Card;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
@@ -637,30 +685,43 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Button button_RollBack;
+        private System.Windows.Forms.Button button_Insert;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button_Return;
+        public System.Windows.Forms.DataGridView dataGridView_Rent;
+        public System.Windows.Forms.DataGridView dataGridView_Client;
+        public System.Windows.Forms.TextBox textBox_VRMClientPhone;
+        public System.Windows.Forms.TextBox textBox_VRMClientNum;
+        public System.Windows.Forms.TextBox textBox_VRMClientCode;
+        public System.Windows.Forms.TextBox textBox_VRMClientName;
+        public System.Windows.Forms.TextBox textBox_ClientCode;
+        public System.Windows.Forms.TextBox textBox_VideoCode;
+        public System.Windows.Forms.TextBox textBox_VideoName;
+        public System.Windows.Forms.TextBox textBox_RentRate;
+        public System.Windows.Forms.TextBox textBox_Arrears;
+        public System.Windows.Forms.DateTimePicker dateTimePicker_Return;
+        public System.Windows.Forms.DateTimePicker dateTimePicker_Rent;
+        private System.Windows.Forms.Button button_Save;
+        public System.Windows.Forms.TextBox textBox_ClientJob;
+        public System.Windows.Forms.TextBox textBox_ClientName;
+        public System.Windows.Forms.TextBox textBox_ClientAddress;
+        public System.Windows.Forms.TextBox textBox_ClientPost;
+        public System.Windows.Forms.TextBox textBox_ClientNum;
+        public System.Windows.Forms.TextBox textBox_ClientPeopleNum;
+        public System.Windows.Forms.TextBox textBox_ClientPhone;
+        public System.Windows.Forms.TextBox textBox_Count;
+        public System.Windows.Forms.TextBox textBox_SumRent;
+        public System.Windows.Forms.TextBox textBox_SumReturn;
     }
 }

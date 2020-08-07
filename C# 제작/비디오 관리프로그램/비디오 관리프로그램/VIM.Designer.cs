@@ -28,14 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VIM));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker_VideoRelease = new System.Windows.Forms.DateTimePicker();
+            this.textBox_VideoDirector = new System.Windows.Forms.TextBox();
+            this.textBox_VideoCategory = new System.Windows.Forms.TextBox();
+            this.textBox_VideoMade = new System.Windows.Forms.TextBox();
+            this.textBox_VideoActor = new System.Windows.Forms.TextBox();
+            this.textBox_VideoName = new System.Windows.Forms.TextBox();
+            this.textBox_VideoCode = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -44,29 +45,32 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.button_VideoAdd = new System.Windows.Forms.Button();
+            this.button_VideoSave = new System.Windows.Forms.Button();
+            this.button_VideoDelete = new System.Windows.Forms.Button();
+            this.button_VideoClose = new System.Windows.Forms.Button();
+            this.button_VideoCancle = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox_VideoCount = new System.Windows.Forms.TextBox();
+            this.button_VideoPrint = new System.Windows.Forms.Button();
+            this.dataGridView_Video = new System.Windows.Forms.DataGridView();
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Video)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.dateTimePicker_VideoRelease);
+            this.groupBox1.Controls.Add(this.textBox_VideoDirector);
+            this.groupBox1.Controls.Add(this.textBox_VideoCategory);
+            this.groupBox1.Controls.Add(this.textBox_VideoMade);
+            this.groupBox1.Controls.Add(this.textBox_VideoActor);
+            this.groupBox1.Controls.Add(this.textBox_VideoName);
+            this.groupBox1.Controls.Add(this.textBox_VideoCode);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
@@ -81,56 +85,56 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "비디오 정보";
             // 
-            // dateTimePicker1
+            // dateTimePicker_VideoRelease
             // 
-            this.dateTimePicker1.CustomFormat = "yyyy-mm-dd";
-            this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Location = new System.Drawing.Point(390, 135);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(204, 21);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dateTimePicker_VideoRelease.CustomFormat = "yyyy-mm-dd";
+            this.dateTimePicker_VideoRelease.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker_VideoRelease.Location = new System.Drawing.Point(390, 135);
+            this.dateTimePicker_VideoRelease.Name = "dateTimePicker_VideoRelease";
+            this.dateTimePicker_VideoRelease.Size = new System.Drawing.Size(204, 21);
+            this.dateTimePicker_VideoRelease.TabIndex = 6;
             // 
-            // textBox6
+            // textBox_VideoDirector
             // 
-            this.textBox6.Location = new System.Drawing.Point(390, 98);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(204, 21);
-            this.textBox6.TabIndex = 1;
+            this.textBox_VideoDirector.Location = new System.Drawing.Point(390, 98);
+            this.textBox_VideoDirector.Name = "textBox_VideoDirector";
+            this.textBox_VideoDirector.Size = new System.Drawing.Size(204, 21);
+            this.textBox_VideoDirector.TabIndex = 4;
             // 
-            // textBox5
+            // textBox_VideoCategory
             // 
-            this.textBox5.Location = new System.Drawing.Point(390, 61);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(204, 21);
-            this.textBox5.TabIndex = 1;
+            this.textBox_VideoCategory.Location = new System.Drawing.Point(390, 61);
+            this.textBox_VideoCategory.Name = "textBox_VideoCategory";
+            this.textBox_VideoCategory.Size = new System.Drawing.Size(204, 21);
+            this.textBox_VideoCategory.TabIndex = 2;
             // 
-            // textBox4
+            // textBox_VideoMade
             // 
-            this.textBox4.Location = new System.Drawing.Point(93, 135);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(204, 21);
-            this.textBox4.TabIndex = 1;
+            this.textBox_VideoMade.Location = new System.Drawing.Point(93, 135);
+            this.textBox_VideoMade.Name = "textBox_VideoMade";
+            this.textBox_VideoMade.Size = new System.Drawing.Size(204, 21);
+            this.textBox_VideoMade.TabIndex = 5;
             // 
-            // textBox3
+            // textBox_VideoActor
             // 
-            this.textBox3.Location = new System.Drawing.Point(93, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(204, 21);
-            this.textBox3.TabIndex = 1;
+            this.textBox_VideoActor.Location = new System.Drawing.Point(93, 98);
+            this.textBox_VideoActor.Name = "textBox_VideoActor";
+            this.textBox_VideoActor.Size = new System.Drawing.Size(204, 21);
+            this.textBox_VideoActor.TabIndex = 3;
             // 
-            // textBox2
+            // textBox_VideoName
             // 
-            this.textBox2.Location = new System.Drawing.Point(93, 61);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(204, 21);
-            this.textBox2.TabIndex = 1;
+            this.textBox_VideoName.Location = new System.Drawing.Point(93, 61);
+            this.textBox_VideoName.Name = "textBox_VideoName";
+            this.textBox_VideoName.Size = new System.Drawing.Size(204, 21);
+            this.textBox_VideoName.TabIndex = 1;
             // 
-            // textBox1
+            // textBox_VideoCode
             // 
-            this.textBox1.Location = new System.Drawing.Point(93, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(204, 21);
-            this.textBox1.TabIndex = 1;
+            this.textBox_VideoCode.Location = new System.Drawing.Point(93, 25);
+            this.textBox_VideoCode.Name = "textBox_VideoCode";
+            this.textBox_VideoCode.Size = new System.Drawing.Size(204, 21);
+            this.textBox_VideoCode.TabIndex = 0;
             // 
             // label7
             // 
@@ -204,11 +208,11 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 13.63636F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.72727F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.72727F));
-            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button2, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button3, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button4, 5, 0);
-            this.tableLayoutPanel1.Controls.Add(this.button5, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button_VideoAdd, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button_VideoSave, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button_VideoDelete, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button_VideoClose, 5, 0);
+            this.tableLayoutPanel1.Controls.Add(this.button_VideoCancle, 3, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 190);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
@@ -216,51 +220,56 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(620, 35);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
-            // button1
+            // button_VideoAdd
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "추가";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_VideoAdd.Location = new System.Drawing.Point(3, 3);
+            this.button_VideoAdd.Name = "button_VideoAdd";
+            this.button_VideoAdd.Size = new System.Drawing.Size(75, 23);
+            this.button_VideoAdd.TabIndex = 2;
+            this.button_VideoAdd.Text = "추가";
+            this.button_VideoAdd.UseVisualStyleBackColor = true;
+            this.button_VideoAdd.Click += new System.EventHandler(this.button_VideoAdd_Click);
             // 
-            // button2
+            // button_VideoSave
             // 
-            this.button2.Location = new System.Drawing.Point(87, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "저장";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_VideoSave.Location = new System.Drawing.Point(87, 3);
+            this.button_VideoSave.Name = "button_VideoSave";
+            this.button_VideoSave.Size = new System.Drawing.Size(75, 23);
+            this.button_VideoSave.TabIndex = 3;
+            this.button_VideoSave.Text = "수정";
+            this.button_VideoSave.UseVisualStyleBackColor = true;
+            this.button_VideoSave.Click += new System.EventHandler(this.button_VideoSave_Click);
             // 
-            // button3
+            // button_VideoDelete
             // 
-            this.button3.Location = new System.Drawing.Point(171, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "삭제";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button_VideoDelete.Location = new System.Drawing.Point(171, 3);
+            this.button_VideoDelete.Name = "button_VideoDelete";
+            this.button_VideoDelete.Size = new System.Drawing.Size(75, 23);
+            this.button_VideoDelete.TabIndex = 2;
+            this.button_VideoDelete.Text = "삭제";
+            this.button_VideoDelete.UseVisualStyleBackColor = true;
+            this.button_VideoDelete.Click += new System.EventHandler(this.button_VideoDelete_Click);
             // 
-            // button4
+            // button_VideoClose
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.Location = new System.Drawing.Point(542, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "나가기";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button_VideoClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_VideoClose.Location = new System.Drawing.Point(542, 3);
+            this.button_VideoClose.Name = "button_VideoClose";
+            this.button_VideoClose.Size = new System.Drawing.Size(75, 23);
+            this.button_VideoClose.TabIndex = 2;
+            this.button_VideoClose.Text = "나가기";
+            this.button_VideoClose.UseVisualStyleBackColor = true;
+            this.button_VideoClose.Click += new System.EventHandler(this.button_VideoClose_Click);
             // 
-            // button5
+            // button_VideoCancle
             // 
-            this.button5.Location = new System.Drawing.Point(255, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "취소";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button_VideoCancle.Location = new System.Drawing.Point(255, 3);
+            this.button_VideoCancle.Name = "button_VideoCancle";
+            this.button_VideoCancle.Size = new System.Drawing.Size(75, 23);
+            this.button_VideoCancle.TabIndex = 2;
+            this.button_VideoCancle.Text = "취소";
+            this.button_VideoCancle.UseVisualStyleBackColor = true;
+            this.button_VideoCancle.Click += new System.EventHandler(this.button_VideoCancle_Click);
             // 
             // label8
             // 
@@ -272,50 +281,76 @@
             this.label8.TabIndex = 2;
             this.label8.Text = "전체 비디오 수 :";
             // 
-            // textBox7
+            // textBox_VideoCount
             // 
-            this.textBox7.Font = new System.Drawing.Font("굴림", 12F);
-            this.textBox7.Location = new System.Drawing.Point(143, 241);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(166, 26);
-            this.textBox7.TabIndex = 3;
+            this.textBox_VideoCount.Font = new System.Drawing.Font("굴림", 12F);
+            this.textBox_VideoCount.Location = new System.Drawing.Point(143, 241);
+            this.textBox_VideoCount.Name = "textBox_VideoCount";
+            this.textBox_VideoCount.ReadOnly = true;
+            this.textBox_VideoCount.Size = new System.Drawing.Size(166, 26);
+            this.textBox_VideoCount.TabIndex = 3;
             // 
-            // button6
+            // button_VideoPrint
             // 
-            this.button6.Location = new System.Drawing.Point(315, 241);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(92, 26);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "목록 저장";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button_VideoPrint.Location = new System.Drawing.Point(315, 241);
+            this.button_VideoPrint.Name = "button_VideoPrint";
+            this.button_VideoPrint.Size = new System.Drawing.Size(92, 26);
+            this.button_VideoPrint.TabIndex = 4;
+            this.button_VideoPrint.Text = "목록 출력";
+            this.button_VideoPrint.UseVisualStyleBackColor = true;
+            this.button_VideoPrint.Click += new System.EventHandler(this.button_VideoPrint_Click);
             // 
-            // dataGridView1
+            // dataGridView_Video
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 273);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(617, 285);
-            this.dataGridView1.TabIndex = 5;
+            this.dataGridView_Video.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView_Video.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_Video.Location = new System.Drawing.Point(12, 273);
+            this.dataGridView_Video.Name = "dataGridView_Video";
+            this.dataGridView_Video.ReadOnly = true;
+            this.dataGridView_Video.RowTemplate.Height = 23;
+            this.dataGridView_Video.Size = new System.Drawing.Size(617, 285);
+            this.dataGridView_Video.TabIndex = 5;
+            this.dataGridView_Video.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_Video_CellClick);
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
             // VIM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(645, 570);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.dataGridView_Video);
+            this.Controls.Add(this.button_VideoPrint);
+            this.Controls.Add(this.textBox_VideoCount);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.groupBox1);
             this.Name = "VIM";
-            this.Text = "비디오 정보";
+            this.Text = "비디오 관리";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VIM_FormClosing);
+            this.Load += new System.EventHandler(this.VIM_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Video)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,13 +359,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -339,14 +367,24 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button_VideoAdd;
+        private System.Windows.Forms.Button button_VideoSave;
+        private System.Windows.Forms.Button button_VideoDelete;
+        private System.Windows.Forms.Button button_VideoClose;
+        private System.Windows.Forms.Button button_VideoCancle;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox_VideoCount;
+        private System.Windows.Forms.Button button_VideoPrint;
+        public System.Windows.Forms.DataGridView dataGridView_Video;
+        public System.Windows.Forms.DateTimePicker dateTimePicker_VideoRelease;
+        public System.Windows.Forms.TextBox textBox_VideoDirector;
+        public System.Windows.Forms.TextBox textBox_VideoCategory;
+        public System.Windows.Forms.TextBox textBox_VideoMade;
+        public System.Windows.Forms.TextBox textBox_VideoActor;
+        public System.Windows.Forms.TextBox textBox_VideoName;
+        public System.Windows.Forms.TextBox textBox_VideoCode;
+        private System.Windows.Forms.PrintDialog printDialog1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
     }
 }

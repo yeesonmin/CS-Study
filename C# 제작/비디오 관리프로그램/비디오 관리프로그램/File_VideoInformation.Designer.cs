@@ -1,6 +1,6 @@
 ﻿namespace 비디오_관리프로그램
 {
-    partial class Set_VideoInformation
+    partial class File_VideoInformation
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox_Range = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_Rant = new System.Windows.Forms.Button();
+            this.button_Viedeo = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,18 +45,28 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "비디오 장르 :";
             // 
-            // comboBox1
+            // comboBox_Range
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(104, 15);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(175, 20);
-            this.comboBox1.TabIndex = 1;
+            this.comboBox_Range.FormattingEnabled = true;
+            this.comboBox_Range.Items.AddRange(new object[] {
+            "전체",
+            "가족",
+            "액션",
+            "코미디",
+            "범죄",
+            "SF",
+            "전쟁",
+            "믹스",
+            "기타"});
+            this.comboBox_Range.Location = new System.Drawing.Point(104, 15);
+            this.comboBox_Range.Name = "comboBox_Range";
+            this.comboBox_Range.Size = new System.Drawing.Size(175, 20);
+            this.comboBox_Range.TabIndex = 1;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.button_Rant);
+            this.groupBox1.Controls.Add(this.button_Viedeo);
             this.groupBox1.Location = new System.Drawing.Point(14, 41);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(271, 57);
@@ -64,34 +74,39 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "엑셀로 출력";
             // 
-            // button1
+            // button_Rant
             // 
-            this.button1.Location = new System.Drawing.Point(6, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(117, 25);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "비디오 목록";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_Rant.Location = new System.Drawing.Point(148, 20);
+            this.button_Rant.Name = "button_Rant";
+            this.button_Rant.Size = new System.Drawing.Size(117, 25);
+            this.button_Rant.TabIndex = 0;
+            this.button_Rant.Text = "대여 현황";
+            this.button_Rant.UseVisualStyleBackColor = true;
+            this.button_Rant.Click += new System.EventHandler(this.button_Rant_Click);
             // 
-            // button2
+            // button_Viedeo
             // 
-            this.button2.Location = new System.Drawing.Point(148, 20);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 25);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "대여 현황";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_Viedeo.Location = new System.Drawing.Point(6, 20);
+            this.button_Viedeo.Name = "button_Viedeo";
+            this.button_Viedeo.Size = new System.Drawing.Size(117, 25);
+            this.button_Viedeo.TabIndex = 0;
+            this.button_Viedeo.Text = "비디오 목록";
+            this.button_Viedeo.UseVisualStyleBackColor = true;
+            this.button_Viedeo.Click += new System.EventHandler(this.button_Viedeo_Click);
             // 
-            // Set_VideoInformation
+            // File_VideoInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(297, 110);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboBox_Range);
             this.Controls.Add(this.label1);
-            this.Name = "Set_VideoInformation";
-            this.Text = "비디오 정보";
+            this.MaximizeBox = false;
+            this.Name = "File_VideoInformation";
+            this.Text = "엑셀출력";
+            this.Load += new System.EventHandler(this.File_VideoInformation_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -101,9 +116,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox_Range;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_Rant;
+        private System.Windows.Forms.Button button_Viedeo;
     }
 }
