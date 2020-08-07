@@ -203,6 +203,9 @@ namespace 비디오_관리프로그램
             th.Abort();
         }
 
-        
+        private void 도움말ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("이선민\n시작 : 2020.07.29 \n마무리 : 2020.08.07 ", "제작");
+        }
     }
 }
